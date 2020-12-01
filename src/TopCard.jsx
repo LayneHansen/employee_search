@@ -9,7 +9,7 @@ function TopCard () {
                 Business Name
             </div>
             <div class="card-body" id="card-body">
-                <h3 class="card-title">EMPLOYEE SEARCH</h3>
+                <h1 class="card-title">EMPLOYEE SEARCH</h1>
             </div>
             <nav class="navbar navbar-dark bg-dark">
                 <form class="form-inline">

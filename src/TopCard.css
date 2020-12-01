@@ -7,7 +7,7 @@
     background-color: rgb(85, 84, 84);
     color: green;
     font-weight: 600;
-    text-shadow: 1px 1px rgb(167, 166, 166);
+    text-shadow: 1px 1px black;
     border-bottom: solid green 2px;
     border-top: solid green 2px;
 }
