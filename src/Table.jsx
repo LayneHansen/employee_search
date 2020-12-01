@@ -4,7 +4,7 @@ import './Table.css'
 function Table () {
     return (
         <>
-        <table class="table">
+        <table class="table table-striped">
             <thead id="table-header">
                 <tr>
                 <th scope="col">Emp #</th>
