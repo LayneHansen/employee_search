@@ -4,20 +4,20 @@ import './TopCard.css';
 function TopCard () {
     return (
         <>
-        <div class="card text-center">
-            <div class="card-header bg-dark">
+        <div className="card text-center">
+            <div className="card-header bg-dark">
                 Business Name
             </div>
-            <div class="card-body" id="card-body">
-                <h1 class="card-title">EMPLOYEE SEARCH</h1>
+            <div className="card-body" id="card-body">
+                <h1 className="card-title">EMPLOYEE SEARCH</h1>
             </div>
-            <nav class="navbar navbar-dark bg-dark">
-                <form class="form-inline">
-                    <input class="form-control mr-sm-2" 
+            <nav className="navbar navbar-dark bg-dark">
+                <form className="form-inline">
+                    <input className="form-control mr-sm-2" 
                     type="search" 
                     placeholder="Search" 
                     aria-label="Search" />
-                    <button class="btn btn-outline-success my-2 my-sm-0" 
+                    <button className="btn btn-outline-success my-2 my-sm-0" 
                     type="submit">Search</button>
                 </form>
             </nav>
