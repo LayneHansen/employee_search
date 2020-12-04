@@ -12,12 +12,15 @@ class Table extends React.Component {
     this.fetchEmployees();
   }
 
+  // ?inc=value,first,last,email,phone,city,state
+
   fetchEmployees = async () => {
     try {
       const response = await fetch(
-        "https://randomuser.me/?inc=value,first,last,email,phone,city,state");
+        "https://randomuser.me/api/?results=50&inc=id,name,email,phone,location");
       const data = await response.json();
-      this.setState({ employees: data });
+      console.log("Chris's Sanity Check", data);
+      this.setState({ employees: data.results });
     } catch (error) {
       console.log(error);
     }
